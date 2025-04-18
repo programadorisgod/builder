@@ -15,8 +15,8 @@ export class PDFBuilder {
     return this;
   }
 
-  setIncludeLogo(): this {
-    this._options.includeLogo = true;
+  setIncludeLogo(includeLogo: boolean): this {
+    this._options.includeLogo = includeLogo;
     return this;
   }
 
@@ -25,18 +25,18 @@ export class PDFBuilder {
     return this;
   }
 
-  setIncludePaymentDetails(): this {
-    this._options.includePaymentDetails = true;
+  setIncludePaymentDetails(includePaymentDetails: boolean): this {
+    this._options.includePaymentDetails = includePaymentDetails;
     return this;
   }
 
-  setIncludeUserInfo(): this {
-    this._options.includeUserInfo = true;
+  setIncludeUserInfo(includeUserInfo: boolean): this {
+    this._options.includeUserInfo = includeUserInfo;
     return this;
   }
 
-  setIncludeTimestamp(): this {
-    this._options.includeTimestamp = true;
+  setIncludeTimestamp(includeTimestamp: boolean): this {
+    this._options.includeTimestamp = includeTimestamp;
     return this;
   }
 
