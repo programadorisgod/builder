@@ -15,4 +15,4 @@ const builder = new PDFBuilder()
 const options = builder.build();
 
 const generator = new PDFDocumentGenerator(options);
-generator.generate("fact.pdf");
+generator.generate(`fact-${crypto.randomUUID()}.pdf`);

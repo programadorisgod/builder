@@ -1,4 +1,3 @@
-// types/enums.ts
 export enum Theme {
   LIGHT,
   DARK,
